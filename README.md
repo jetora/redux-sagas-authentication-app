@@ -29,4 +29,3 @@ a) Git clone it
 b) `yarn` or `npm i` to install dependencies
 
 c) `yarn start`
-
