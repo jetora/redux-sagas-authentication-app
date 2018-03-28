@@ -8,7 +8,7 @@ import Messages from '../notifications/Messages'
 import Errors from '../notifications/Errors'
 
 import loginRequest from './actions'
-
+import './index.less'
 // If you were testing, you'd want to export this component
 // so that you can test your custom made component and not
 // test whether or not Redux and Redux Form are doing their jobs
@@ -43,7 +43,10 @@ class Login extends Component {
     } = this.props
 
     return (
-      <div className="login">
+      <div className="loginpagewrap">
+          <div className="box">
+              <p>Welcome to the React</p>
+              <div className="loginWrap">
         <form className="widget-form" onSubmit={handleSubmit(this.submit)}>
           <h1>LOGIN</h1>
           <label htmlFor="email">Email</label>
@@ -68,19 +71,22 @@ class Login extends Component {
           />
           <button action="submit">LOGIN</button>
         </form>
+
         <div className="auth-messages">
           {/* As in the signup, we're just using the message and error helpers */}
           {!requesting && !!errors.length && (
             <Errors message="Failure to login due to:" errors={errors} />
           )}
           {!requesting && !!messages.length && (
-            <Messages messages={messages} />
+                <Messages messages={messages} />
           )}
           {requesting && <div>Logging in...</div>}
           {!requesting && !successful && (
             <Link to="/signup">Need to Signup? Click Here »</Link>
           )}
         </div>
+      </div>
+          </div>
       </div>
     )
   }

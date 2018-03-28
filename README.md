@@ -2,7 +2,6 @@
 
 This repo is an example application that documents and walks through a complete Signup, Login and Protected resource flow using the following:
 
-- "antd": "^3.3.3",
 - "react": "^16.2.0",
 - "react-dom": "^16.2.0",-
 - "react-redux": "^5.0.7",
