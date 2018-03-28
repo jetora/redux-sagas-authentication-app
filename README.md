@@ -14,7 +14,7 @@ This repo is an example application that documents and walks through a complete 
 - "redux-saga": "^0.16.0",
 
 This Project is based on the flow repository, thanks for the author...
-
+```
 The full overviews can be found here:
 
 [React and Redux Sagas Authentication App Tutorial](http://start.jcolemorrison.com/react-and-redux-sagas-authentication-app-tutorial/)
@@ -22,14 +22,9 @@ The full overviews can be found here:
 [React and Redux Sagas Authentication App Tutorial Part 2](http://start.jcolemorrison.com/react-and-redux-sagas-authentication-app-tutorial-part-2/)
 
 [React and Redux Sagas Authentication App Tutorial Part 3](http://start.jcolemorrison.com/react-and-redux-sagas-authentication-app-tutorial-part-3/)
+```
 
-The api being used with it can be found here:
-
-https://github.com/jcolemorrison/strongloop-automigration-demo
-
-The guide associated with creating that can be found here:
-
-[Authorized Resources and Database Migrations with Strongloop's Loopback](http://start.jcolemorrison.com/authorized-resources-and-database-migrations-with-strongloops-loopback/)
+And for testing , the Token is from https://github.com/pantharshit00/jwtAuth
 
 To start it up:
 
