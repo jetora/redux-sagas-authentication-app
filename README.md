@@ -13,6 +13,8 @@ This repo is an example application that documents and walks through a complete 
 - "redux-form": "^7.3.0",
 - "redux-saga": "^0.16.0",
 
+This Project is based on the flow repository, thanks for the author...
+
 The full overviews can be found here:
 
 [React and Redux Sagas Authentication App Tutorial](http://start.jcolemorrison.com/react-and-redux-sagas-authentication-app-tutorial/)
