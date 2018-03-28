@@ -15,7 +15,7 @@ This repo is an example application that documents and walks through a complete 
 
 This Project is based on the flow repository, thanks for the author...
 
-The full overviews can be found here:
+The full overviews can be found here:  
 [React and Redux Sagas Authentication App Tutorial](http://start.jcolemorrison.com/react-and-redux-sagas-authentication-app-tutorial/)
 [React and Redux Sagas Authentication App Tutorial Part 2](http://start.jcolemorrison.com/react-and-redux-sagas-authentication-app-tutorial-part-2/)
 [React and Redux Sagas Authentication App Tutorial Part 3](http://start.jcolemorrison.com/react-and-redux-sagas-authentication-app-tutorial-part-3/)
